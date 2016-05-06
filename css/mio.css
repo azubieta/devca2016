@@ -1,0 +1,9 @@
+.giveMeEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* number of lines to show */
+    line-height: X;        /* fallback */
+    max-height: X*6;       /* fallback */
+}
